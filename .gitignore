@@ -1,0 +1,43 @@
+# Dependency directories
+node_modules/
+
+# Environment variables file
+.env
+
+# Logs
+logs
+*.log
+
+# Debug files
+npm-debug.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Compiled binary addons (like node-sass)
+/build/ 
+
+# Local development files
+*.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.staging
+.env.production
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# Testing
+coverage/
+
+# Production build files
+/build
