@@ -136,30 +136,6 @@ This project is an enhanced authentication system built with Node.js. It include
 - **Optionally, host the API on a platform like Heroku or similar.**
 - **Optionally, use a library like Swagger to create an API playground for testing the API.**
 
-## Project Structure
-
-enhanced-authentication-api
-│ .env
-│ .gitignore
-│ server.js
-│
-├───config
-│ db.js
-│
-├───controllers
-│ authController.js
-│ profileController.js
-│
-├───middlewares
-│ authMiddleware.js
-│
-├───models
-│ User.js
-│
-└───routes
-authRoutes.js
-profileRoutes.js
-
 
 ## Setup Instructions
 
