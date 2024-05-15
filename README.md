@@ -43,26 +43,26 @@ This project is built with Node.js. It includes features for user registration, 
 
 ## Project Structure
 
-│ .env
-│ .gitignore
-│ server.js
-│
-├───config
-│ db.js
-│
-├───controllers
-│ authController.js
-│ profileController.js
-│
-├───middlewares
-│ authMiddleware.js
-│
-├───models
-│ User.js
-│
-└───routes
-authRoutes.js
-profileRoutes.js
+│ .env    
+│ .gitignore    
+│ server.js    
+│    
+├───config    
+│ db.js    
+│    
+├───controllers    
+│ authController.js    
+│ profileController.js    
+│     
+├───middlewares    
+│ authMiddleware.js    
+│    
+├───models    
+│ User.js    
+│    
+└───routes     
+authRoutes.js    
+profileRoutes.js    
 
 
 ## Setup Instructions
