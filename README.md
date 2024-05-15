@@ -92,7 +92,7 @@ profileRoutes.js
 Sure! Below is a comprehensive README.md file for your project that includes detailed information about the project setup, usage, and the problem statement requirements.
 
 markdown
-Copy code
+
 # Enhanced Authentication API
 
 ## Overview
@@ -160,8 +160,6 @@ enhanced-authentication-api
 authRoutes.js
 profileRoutes.js
 
-bash
-Copy code
 
 ## Setup Instructions
 
@@ -170,20 +168,21 @@ Copy code
    ```bash
    git clone https://github.com/yourusername/enhanced-authentication-api.git
    cd enhanced-authentication-api
-Install dependencies:
 
-bash
-Copy code
+# Install dependencies:
+
 npm install
 Create a .env file in the root directory and add the following variables:
 
-env
-Copy code
-PORT=3000
-MONGODB_URI=your_mongodb_uri
-JWT_SECRET=your_secret_key
-Run the application:
+# env
 
+  PORT=3000
+  MONGODB_URI=your_mongodb_uri
+  JWT_SECRET=your_secret_key
+
+# Run the application:
+  
+  npm run dev
 
 ## API Endpoints
 
