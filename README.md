@@ -42,11 +42,6 @@ profileRoutes.js
 
 1. **Clone the repository:**
 
-   ```bash
-  - git clone https://github.com/yourusername/enhanced-authentication-api.git
-  - cd enhanced-authentication-api
-    bash```
-
 2. **Install dependencies:**
 
   ```bash
