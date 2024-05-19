@@ -8,38 +8,11 @@ This project is built with Node.js. It includes features for user registration, 
 
 - User registration
 - User login
-- OAuth login with Google, Facebook, Twitter, or GitHub
 - User logout
-- Profile management (view, edit, upload photo, update details)
+- Profile management (view, edit, update details)
 - Set profile as public or private
 - Admin access to all profiles (public and private)
 - Normal user access to only public profiles
-
-## User Stories
-
-1. **As a user, I can register a new account.**
-2. **As a user, I can log in.**
-3. **As a user, I can log in or register with at least one of the following services: Google, Facebook, Twitter, or GitHub.**
-4. **As a user, I can sign out.**
-5. **As a user, I can see my profile details.**
-6. **As a user, I can edit my details including: photo, name, bio, phone, email, and password.**
-7. **As a user, I can upload a new photo or provide an image URL.**
-8. **As a user, I can choose to make my profile public or private.**
-9. **As an admin user, I can see both public and private user profiles.**
-10. **As a normal user, I can only see public user profiles.**
-
-## Requirements
-
-- **Use Node.js for the backend.**
-- **Enhance the existing authentication system to include the option for users to set their profiles as public or private.**
-- **Implement authorization checks to allow admin users to access both public and private profiles.**
-- **Normal users should only be able to access public profiles.**
-- **Ensure that private user details remain private to unauthorized users.**
-- **Include endpoints for listing public profiles and retrieving user profiles based on user roles.**
-- **Update the user profile editing functionality to include the option to set the profile as public or private.**
-- **Implement proper error handling, validation, and security measures.**
-- **Optionally, host the API on a platform like Heroku or similar.**
-- **Optionally, use a library like Swagger to create an API playground for testing the API.**
 
 ## Project Structure
 
